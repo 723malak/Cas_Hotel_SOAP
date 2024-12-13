@@ -26,7 +26,7 @@ public class SoapHotelMainApp {
     @Bean
     public CommandLineRunner run() {
         return args -> {
-            // Insérer des clients marocains exemples
+            // Insérer des clients exemples
             clientService.save(new ClientRequestDTO("Fatima Zahra El Mansouri", "fatima.elmansouri@example.ma", "0678451234"));
             clientService.save(new ClientRequestDTO("Ahmed Bakkali", "ahmed.bakkali@example.ma", "0654127890"));
             clientService.save(new ClientRequestDTO("Samir Belkadi", "samir.belkadi@example.ma", "0632174568"));
